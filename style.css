@@ -1,0 +1,95 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-size: 1.5rem;
+    font-family:sans-serif;
+    text-align: center;
+    color: hotpink;
+    text-shadow: 5px 0 8px white;
+}
+header{
+    height: 100px;
+    background-color: black;
+    color: white;
+    padding-top: 18px;
+    font-size: 2rem;
+    font-family: 'Times New Roman';
+    text-shadow: 8px 0 5px orangered;
+   
+}
+span{
+    color: orangered;
+    text-shadow: 7px 0 5px white;
+}
+.container{
+    min-height: 100vh;
+    background-image: url(trainstation.jpg);
+    background-size: cover;
+}
+.main{
+    min-height: 100vh;
+    background-color: rgba(255, 255, 255, 0.37);
+    padding-top: 30px;
+    color: crimson;
+    font-size: 2rem;
+    font-family:sans-serif;
+    text-shadow: 7px 0 5px black;
+    
+}
+h2{
+    font-size: 3.5rem;
+    color: rgb(211, 247, 10);
+    text-shadow: 10px 0 18px black;
+}
+button{
+    height: 50px;
+    padding-left: 90px;
+    padding-right: 90px;
+    padding-top: 25px;
+    padding-bottom: 55px;
+    background-color:orangered;
+    color: white;
+    margin-top: 30px;
+    border-radius: 10px;
+    font-size: 2rem;
+    box-shadow: 0 0 18px white;
+}
+button:hover{
+    background-color: blue;
+    color:white;
+}
+#save-btn{
+    height: 50px;
+    padding-left: 90px;
+    padding-right: 90px;
+    padding-top: 25px;
+    padding-bottom: 55px;
+    background-color:green;
+    color: white;
+    margin-top: 30px;
+    border-radius: 10px;
+    font-size: 2rem; 
+    box-shadow: 0 0 18px white;
+}
+#save-btn:hover{
+    background-color: crimson;
+    color:black;
+}
+p{
+    padding-top: 20px;
+    color: yellow;
+    text-shadow: 3px 0 2px blue;
+    font-size: 2rem;
+}
+@media (max-width: 320px){ 
+     
+}
+@media (max-width: 480px){
+     
+}
+@media (max-width: 640px){
+     
+}
